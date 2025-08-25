@@ -1,12 +1,35 @@
-# React + Vite
+🛒 E-Commerce App (React)<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple E-Commerce web application built with React that demonstrates product listing, filtering, cart management, and dynamic routing. The project uses Context API with a custom useCart hook to manage cart state globally.<br>
 
-Currently, two official plugins are available:
+✨ Features<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Landing Page – Introduction page with navigation.<br>
 
-## Expanding the ESLint configuration
+Navigation Bar – Categories like Mobiles, ACs, etc., with live cart count.<br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Category Pages – Display all products in that category.<br>
+
+Includes filter by brand feature.<br>
+
+Product Detail Page – Dynamic route (/products/:id) showing product details.<br>
+
+Option to Add to Cart.<br>
+
+Cart Page – View products added to cart.<br>
+
+Remove individual products.<br>
+
+Clear all items with Clear Cart.<br>
+
+Empty cart message when no products are present.<br>
+
+🛠️ Tech Stack<br>
+
+React – UI framework<br>
+
+React Router – For navigation & dynamic routing<br>
+
+Context API + Custom Hook (useCart) – Global cart state management<br>
+
+CSS – Styling<br>
